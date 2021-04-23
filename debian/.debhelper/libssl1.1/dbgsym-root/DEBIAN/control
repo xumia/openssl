@@ -1,0 +1,13 @@
+Package: libssl1.1-dbgsym
+Source: openssl
+Version: 1.1.1e-fips
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Installed-Size: 4517
+Depends: libssl1.1 (= 1.1.1e-fips)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libssl1.1
+Build-Ids: 395147f3ea1541a7287de0a89b153317009713db 6c5c14a11f08b656d7428c5b72cfdb359a2f3ac1 cd83ed3f48466742673002552798792694b33995 e940b20a3697f60c2b47effdb5dbfded0ac55482 eb7245ae734c4773d6747748470b15d44e98fdf5
