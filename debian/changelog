@@ -1,4 +1,4 @@
-openssl (1.1.1e-fips) buster-security; urgency=medium
+openssl (1.1.1g-fips) buster-security; urgency=medium
   * New upstream version
    - Support FIPS 140-2
 openssl (1.1.1d-0+deb10u4) buster-security; urgency=medium
