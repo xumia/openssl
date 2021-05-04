@@ -16,4 +16,4 @@ all:
 	echo debian/patches > .pc/.quilt_patches; \
 	quilt upgrade; \
 	quilt push -a; \
-	DEB_BUILD_OPTIONS=nocheck dpkg-buildpackage -b -rfakeroot -us -uc                                                                                                                                                                                                                                  
+	DEB_BUILD_OPTIONS=nocheck DEB_CFLAGS_APPEND=-DOPENSSL_FIPS DEB_CPPFLAGS_APPEND=-DOPENSSL_FIPS dpkg-buildpackage -b -rfakeroot -us -uc                                                                                                                                                                                                                                  
