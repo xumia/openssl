@@ -37,5 +37,5 @@ stages:
         cp *.deb $(Build.ArtifactStagingDirectory)/
       displayName: "Build"
     - publish: $(Build.ArtifactStagingDirectory)/
-      artifact: sonic-restapi
+      artifact: openssl
       displayName: "Archive artifacts"
