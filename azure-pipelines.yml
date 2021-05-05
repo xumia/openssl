@@ -23,7 +23,7 @@ stages:
       displayName: 'Clean Workspace'
 
     - script: |
-        apt-get install -y quilt build-essential debhelper bc
+        sudo apt-get install -y quilt build-essential debhelper bc
       displayName: 'Init'
 
     - checkout: self
