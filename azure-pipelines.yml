@@ -35,6 +35,7 @@ stages:
     - script: |
         make
         cp *.deb $(Build.ArtifactStagingDirectory)/
+        cp *.udeb $(Build.ArtifactStagingDirectory)/
       displayName: "Build"
     - publish: $(Build.ArtifactStagingDirectory)/
       artifact: openssl
